@@ -1,0 +1,42 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hello",
+                "welcome"
+            ],
+            "responses": [
+                "hello!",
+                "What can I do for you",
+                "Good morning"
+            ]
+        },
+        {
+            "tag": "Bye",
+            "patterns": [
+                "bye",
+                "see you",
+                "good bye"
+            ],
+            "responses": [
+                "Bye",
+                "see you soon",
+                "bye see you"
+            ]
+        },
+        {
+            "tag": "!now",
+            "patterns": [
+                "what shoud I do now",
+                "now"
+            ],
+            "responses": [
+                "music",
+                " dance",
+                "book"
+            ]
+        }
+    ]
+}
